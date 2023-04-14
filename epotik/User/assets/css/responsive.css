@@ -1,0 +1,168 @@
+/*perangkat cilik (landscape phones, <= 768)*/
+@media (max-width: 768px){
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+	.pd-container{
+		padding: 8px 20px!important;
+	}
+  .navbar-brand img{
+    height: 50px;
+  }
+  .header-txt h1{
+    font-size: 30px;
+  }
+  .header-txt p{
+    font-size: 15px;
+  }
+
+  .breadcumb p.title-bread{
+    font-size: 1.6em;
+  }
+  .menu-container .penawaran .box-penawaran h2{
+    font-size: 20px;
+  }
+
+  .menu-container .tentang-kami .title-about{
+    font-family: 'playfair';
+    font-size: 2em;
+  }
+  .tentang-kami .desc-about{
+    font-size: 0.8em;
+  }
+  .hubungi-kami .text-right{
+    text-align: center!important;
+  }
+  .flyer-contact{
+    padding: 8px;
+    margin-top:-80px;
+  }
+  .produk-desc p{
+    font-size: 1em;
+  }
+  .box-card img{
+    width: 100% !important;
+  }
+  .box-login-img{
+    display: none!important;
+  }
+  .box-login-card{
+    border-radius: 20px;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/*perangkat sedeng(tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+	.pd-container{
+		padding: 10px 30px!important;
+	}
+  .navbar-brand img{
+    height: 65px;
+  }
+  .menu-container .penawaran .box-penawaran i{
+    font-size: 3em;
+  }
+  .menu-container .tentang-kami .title-about{
+    font-family: 'playfair';
+    font-size: 3em;
+  }
+  .tentang-kami .desc-about{
+    font-size: 1em;
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+
+
+/*perangkat gede (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.pd-container{
+		padding: 20px 50px!important;
+	}
+  .navbar-brand img{
+    height: 80px;
+  }
+  .menu-container .penawaran .box-penawaran i{
+    font-size: 4em;
+  }
+
+  .menu-container .tentang-kami .title-about{
+    font-family: 'playfair';
+    font-size: 3.3em;
+  }
+  .tentang-kami .desc-about{
+    font-size: 1.2em;
+  }
+}
+
+/*perangkat gede banget (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.pd-container{
+		padding: 30px 70px!important;
+	}
+  .menu-container .tentang-kami .title-about{
+    font-family: 'playfair';
+    font-size: 3.6em;
+  }
+  .tentang-kami .desc-about{
+    font-size: 1.5em;
+  }
+}
+
+
+@media screen and (max-width: 420px){
+  #artikel .card{
+    width: calc(100% / 1 - 25px);
+  }
+  .breadcumb nav{
+    display: none;
+  }
+  .flyer-contact .social-menu i{
+    font-size: 1.4em!important;
+    margin: 0 5px;
+  }
+  .flyer-contact p{
+    font-size: 1.4em!important;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 1030px){
+  #artikel .card{
+    width: calc(100% / 2 - 25px);
+  }
+  .flyer-contact .social-menu i{
+    font-size: 2em;
+    margin: 0 10px;
+  }
+  .flyer-contact p{
+    font-size: 2em!important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  .card-feature h4{
+    font-size: 16px;
+    line-height: 2;
+  }
+}
+/*rafik bojes*/
